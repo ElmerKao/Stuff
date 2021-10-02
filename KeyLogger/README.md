@@ -6,4 +6,4 @@ Hellooo, This is a Keylogger made for bash 🐱‍💻
   - The flowchart for execution that takes place is this:
   keylogger.sh--> (logger.txt-->myscript.py<--keymaps.txt) -->output.log
   
-  -Only Works for Linux Systems
+  - Only Works for Linux Systems
