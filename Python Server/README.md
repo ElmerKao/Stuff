@@ -1,4 +1,4 @@
-This is a Simple chat on python
+This is a Simple chat on python 👨‍💻
 
 - As the name indicates the firt one is the Client part and the second is the Server part
 
