@@ -1,5 +1,5 @@
 # Setups
-Hi,My Name is Isaac  👋
+Hi, My Name is Isaac  👋
 
 - I'm a student of SMR/MSN
 
