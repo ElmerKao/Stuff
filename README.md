@@ -6,5 +6,3 @@ Hi, My Name is Isaac  👋
 - This is a Repo for thing that I want to have uploaded at the interent
 
 - Feel fre to grab anything
-
-This is a reo for very variated stuff like a NightTab config and an Awasome Config
