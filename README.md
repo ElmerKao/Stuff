@@ -5,4 +5,4 @@ Hi, My Name is Isaac  👋
 
 - This is a Repo for thing that I want to have uploaded at the Internet
 
-- Feel fre to grab anything
+- Feel free to grab anything
