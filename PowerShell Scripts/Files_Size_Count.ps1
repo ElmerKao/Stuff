@@ -1,8 +1,7 @@
-$path=C:\
-$colItems = Get-ChildItem $path | Where-Object {$_.PSIsContainer -eq $true} | Sort-Object
-foreach ($i in $colItems){
-    $subFolderItems = Get-ChildItem $i.FullName -recurse -force | Where-Object {$_.PSIsContainer -eq $false} | Measure-Object -property Length -sum | Select-Object Sum
-    $i.FullName + " -- " + "{0:N2}" -f ($subFolderItems.sum / 1MB) + " MB"
-    $count=(Get-ChildItem -Recurse $path$i).Count
-    Write-Host "Files in $i : $count";""
+gci -force 'C:\'-ErrorAction SilentlyContinue | ? { $_ -is [io.directoryinfo] } | % {
+$len = 0
+$cont=(Get-ChildItem -Force -Recurse -ErrorAction SilentlyContinue  "C:\$_").count
+gci -recurse -force $_.fullname -ErrorAction SilentlyContinue | % { $len += $_.length }
+$_.fullname, '{0:N2} MB' -f ($len / 1mb)
+Write-host " * Files and Directories in $_ $cont";""
 }
