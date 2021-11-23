@@ -4,6 +4,4 @@ This is a Simple chat on python 👨‍💻
 
 - The server must be working all the time to make the chat work
 
-- This only works for the same Local Netwotk like you house or your work Network
-
-Make me know if it has any fail
+- This only works for the same Local Netwotk like your house or your work Network
